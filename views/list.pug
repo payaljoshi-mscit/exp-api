@@ -1,0 +1,12 @@
+html
+	head
+		title= 'Books List'		
+	body
+		h1= 'Books List'
+	table 
+		for book in booksList
+			tr
+				td= book._id
+				td= book.name
+				td= book.price
+				td= book.quantity
